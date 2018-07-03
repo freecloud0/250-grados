@@ -26,6 +26,13 @@
   font-family: Cleopatr;
   font-size: 29px; 
 }
+.bg-tra-02{
+  background: #ff8800c9!important;
+}
+
+.bg-tra-03{
+  background: #4067d3c9!important;
+}
 .bg-gris{
   background: #e6e6e6 !important;
 }
@@ -218,7 +225,10 @@ botones
   color: red;
 }
 .bg-otros{
-  background: #8fa4c78f;
+  background: #0000002a;
+  height: 35px;
+  text-align: center;
+  padding-top: 15px;
 }
 .bg-footer-01{
   background: #e2e2e2;
@@ -521,10 +531,13 @@ select.form-control-sm-p:not([size]):not([multiple]){
 }
 #menu-top:hover{
 
-  color: rgb(59, 67, 145);
+  color: rgb(14, 12, 12)!important;
 }
 #renub:hover{
   color: rgb(27, 116, 158);
+}
+#btn-hov{
+  color: rgb(255, 254, 254)!important;
 }
 
 .sise-t-13{
@@ -552,6 +565,9 @@ select.form-control-sm-p:not([size]):not([multiple]){
   
 }
 .sise-t-25{
+  
+}
+.sise-t-50{
   
 }
 .m-textplus-titulo-03{
@@ -1059,6 +1075,9 @@ margin-top: -15px;
   display: block;
   margin: auto;
 }
+.container09-p{
+
+}
 .container10c{
 
 }
@@ -1143,7 +1162,16 @@ letter-spacing: 0;
 
 
 @media (min-width: 769px){
-
+  .carousel-item {
+    height: 75vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
 
   .sise-t-18{
     font-size: 18px;
@@ -1157,16 +1185,28 @@ letter-spacing: 0;
   .sise-t-25{
     font-size: 25px;
   }
+  .sise-t-50{
+    font-size: 50px;
+  }
 
-
-
+  .container09-p{
+    width: 96%;
+    display: block;
+    margin: auto;
+  }
   .container08-p{
     width: 80%;
     display: block;
     margin: auto;
   }
   .w-100-p{
-    width: 100%!important;
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
   }
   .ima-logo{
@@ -1174,7 +1214,7 @@ letter-spacing: 0;
     height:130px; 
   }
   .po-ca-01{
-    left:45%; width: 139px; position: absolute; top: 110%; z-index: 1200;
+    left:45%; width: 139px; position: absolute; top: 101%; z-index: 1200;
   }
 .container10c{
   width: 10%;
@@ -1263,7 +1303,10 @@ letter-spacing: 0;
 
 
 @media (max-width: 768px){
-
+  .carousel-item {
+  
+  }
+  
 
 
   .sise-t-18{
@@ -1278,7 +1321,14 @@ letter-spacing: 0;
   .sise-t-25{
     font-size: 20px;
   }
-
+  .container09-p{
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .sise-t-50{
+    font-size: 20px;
+  }
   .po-ca-01
   .container08-p{
     width: 100%;
@@ -1565,7 +1615,8 @@ color: black;
   font-family: Helvetica;
 }
 .navbar .nav-item .nav-link:hover{
-  background-color: rgb(226, 73, 73)!important;
+  background-color: #986a40!important;
+  border-radius: 25px;
 } 
 
 .navbar .dropdown-menu a:hover{

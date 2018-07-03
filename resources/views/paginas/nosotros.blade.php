@@ -25,7 +25,7 @@
             <!--Image-->
             <div class="view">
                     <img src="https://mdbootstrap.com/img/Photos/Others/images/82.jpg" class="img-fluid" alt="">
-                    <div class="mask flex-center blue">
+                    <div class="mask flex-center bg-tra-03">
                         <p class="white-text">Misión</p>
                     </div>
             </div>
@@ -71,7 +71,7 @@
             
             <div class="view">
                     <img src="https://mdbootstrap.com/img/Photos/Others/images/82.jpg" class="img-fluid" alt="">
-                    <div class="mask flex-center red">
+                    <div class="mask flex-center bg-tra-02">
                         <p class="white-text">Visión</p>
                     </div>
             </div>

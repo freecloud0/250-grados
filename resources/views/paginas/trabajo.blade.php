@@ -93,7 +93,7 @@
 
                             <!--Grid column-->
                             <div class="col-md-9 text-left comenta-d ">
-                                <a href="" id="renub"><h5 class="mb-2 mt-2 white b-01">ANALISTA DE CONTROL DE PRESUPUESTOS</h5></a> 
+                                <a href="{{ url('registro') }}" id="renub"><h5 class="mb-2 mt-2 white b-01">ANALISTA DE CONTROL DE PRESUPUESTOS</h5></a> 
                                 <h6 class="mb-2 blue-text mn-t-02 ml-2">APC CORPORACION S.A</h6>
                                 <hr class="mn-t-02 busca-trabajo mr-2">
                                 <p class="mn-t-02 p-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam
@@ -109,107 +109,108 @@
                 <div class=" white busca-trabajo mb-2 mt-2">
                         <!--Grid row-->
                         <div class="row ">
-                            <!--Grid column-->
-                            <div class="col-md-3 sm-02 p-4">
+                                <!--Grid column-->
+                                <div class="col-md-3 sm-02 p-4">
                                 <!--Featured image-->
                                 
-                                    <a href=""><img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="ima-tra " alt="Sample image for first version of blog listing"></a> 
-                            </div>
-                            <!--Grid column-->
+                                        <a href=""><img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="ima-tra " alt="Sample image for first version of blog listing"></a> 
+                                </div>
+                                <!--Grid column-->
 
-                            <!--Grid column-->
-                            <div class="col-md-9 text-left comenta-d ">
-                                <a href="" id="renub"><h5 class="mb-2 mt-2 white b-01">ANALISTA DE CONTROL DE PRESUPUESTOS</h5></a> 
+                                <!--Grid column-->
+                                <div class="col-md-9 text-left comenta-d ">
+                                <a href="{{ url('registro') }}" id="renub"><h5 class="mb-2 mt-2 white b-01">ANALISTA DE CONTROL DE PRESUPUESTOS</h5></a> 
                                 <h6 class="mb-2 blue-text mn-t-02 ml-2">APC CORPORACION S.A</h6>
                                 <hr class="mn-t-02 busca-trabajo mr-2">
                                 <p class="mn-t-02 p-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam
-                                    rem aperiam, eaque ipsa rem aperiam, eaque ipsa unde omnis iste natus error sit voluptatem[...]</p>
-                                    <i class="fas fa-map-marker-alt mr-2 p-2"></i>San Isidro,Lima,Lima,Perú
-                                    <i class="fas fa-address-book ml-4 mr-2 p-2"></i>Education
-                            </div>
-                            <!--Grid column-->
+                                        rem aperiam, eaque ipsa rem aperiam, eaque ipsa unde omnis iste natus error sit voluptatem[...]</p>
+                                        <i class="fas fa-map-marker-alt mr-2 p-2"></i>San Isidro,Lima,Lima,Perú
+                                        <i class="fas fa-address-book ml-4 mr-2 p-2"></i>Education
+                                </div>
+                                <!--Grid column-->
                         </div>
                         <!--Grid row-->
-                  
+                        
                 </div>
                 <div class=" white busca-trabajo mb-2 mt-2">
                         <!--Grid row-->
                         <div class="row ">
-                            <!--Grid column-->
-                            <div class="col-md-3 sm-02 p-4">
+                                <!--Grid column-->
+                                <div class="col-md-3 sm-02 p-4">
                                 <!--Featured image-->
                                 
-                                    <a href=""><img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="ima-tra " alt="Sample image for first version of blog listing"></a> 
-                            </div>
-                            <!--Grid column-->
+                                        <a href=""><img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="ima-tra " alt="Sample image for first version of blog listing"></a> 
+                                </div>
+                                <!--Grid column-->
 
-                            <!--Grid column-->
-                            <div class="col-md-9 text-left comenta-d ">
-                                <a href="" id="renub"><h5 class="mb-2 mt-2 white b-01">ANALISTA DE CONTROL DE PRESUPUESTOS</h5></a> 
+                                <!--Grid column-->
+                                <div class="col-md-9 text-left comenta-d ">
+                                <a href="{{ url('registro') }}" id="renub"><h5 class="mb-2 mt-2 white b-01">ANALISTA DE CONTROL DE PRESUPUESTOS</h5></a> 
                                 <h6 class="mb-2 blue-text mn-t-02 ml-2">APC CORPORACION S.A</h6>
                                 <hr class="mn-t-02 busca-trabajo mr-2">
                                 <p class="mn-t-02 p-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam
-                                    rem aperiam, eaque ipsa rem aperiam, eaque ipsa unde omnis iste natus error sit voluptatem[...]</p>
-                                    <i class="fas fa-map-marker-alt mr-2 p-2"></i>San Isidro,Lima,Lima,Perú
-                                    <i class="fas fa-address-book ml-4 mr-2 p-2"></i>Education
-                            </div>
-                            <!--Grid column-->
+                                        rem aperiam, eaque ipsa rem aperiam, eaque ipsa unde omnis iste natus error sit voluptatem[...]</p>
+                                        <i class="fas fa-map-marker-alt mr-2 p-2"></i>San Isidro,Lima,Lima,Perú
+                                        <i class="fas fa-address-book ml-4 mr-2 p-2"></i>Education
+                                </div>
+                                <!--Grid column-->
                         </div>
                         <!--Grid row-->
-                  
+                        
                 </div>
                 <div class=" white busca-trabajo mb-2 mt-2">
                         <!--Grid row-->
                         <div class="row ">
-                            <!--Grid column-->
-                            <div class="col-md-3 sm-02 p-4">
+                                <!--Grid column-->
+                                <div class="col-md-3 sm-02 p-4">
                                 <!--Featured image-->
                                 
-                                    <a href=""><img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="ima-tra " alt="Sample image for first version of blog listing"></a> 
-                            </div>
-                            <!--Grid column-->
+                                        <a href=""><img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="ima-tra " alt="Sample image for first version of blog listing"></a> 
+                                </div>
+                                <!--Grid column-->
 
-                            <!--Grid column-->
-                            <div class="col-md-9 text-left comenta-d ">
-                                <a href="" id="renub"><h5 class="mb-2 mt-2 white b-01">ANALISTA DE CONTROL DE PRESUPUESTOS</h5></a> 
+                                <!--Grid column-->
+                                <div class="col-md-9 text-left comenta-d ">
+                                <a href="{{ url('registro') }}" id="renub"><h5 class="mb-2 mt-2 white b-01">ANALISTA DE CONTROL DE PRESUPUESTOS</h5></a> 
                                 <h6 class="mb-2 blue-text mn-t-02 ml-2">APC CORPORACION S.A</h6>
                                 <hr class="mn-t-02 busca-trabajo mr-2">
                                 <p class="mn-t-02 p-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam
-                                    rem aperiam, eaque ipsa rem aperiam, eaque ipsa unde omnis iste natus error sit voluptatem[...]</p>
-                                    <i class="fas fa-map-marker-alt mr-2 p-2"></i>San Isidro,Lima,Lima,Perú
-                                    <i class="fas fa-address-book ml-4 mr-2 p-2"></i>Education
-                            </div>
-                            <!--Grid column-->
+                                        rem aperiam, eaque ipsa rem aperiam, eaque ipsa unde omnis iste natus error sit voluptatem[...]</p>
+                                        <i class="fas fa-map-marker-alt mr-2 p-2"></i>San Isidro,Lima,Lima,Perú
+                                        <i class="fas fa-address-book ml-4 mr-2 p-2"></i>Education
+                                </div>
+                                <!--Grid column-->
                         </div>
                         <!--Grid row-->
-                  
+                        
                 </div>
                 <div class=" white busca-trabajo mb-2 mt-2">
                         <!--Grid row-->
                         <div class="row ">
-                            <!--Grid column-->
-                            <div class="col-md-3 sm-02 p-4">
+                                <!--Grid column-->
+                                <div class="col-md-3 sm-02 p-4">
                                 <!--Featured image-->
                                 
-                                    <a href=""><img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="ima-tra " alt="Sample image for first version of blog listing"></a> 
-                            </div>
-                            <!--Grid column-->
+                                        <a href=""><img src="https://mdbootstrap.com/img/Photos/Others/laptop-sm.jpg" class="ima-tra " alt="Sample image for first version of blog listing"></a> 
+                                </div>
+                                <!--Grid column-->
 
-                            <!--Grid column-->
-                            <div class="col-md-9 text-left comenta-d ">
-                                <a href="" id="renub"><h5 class="mb-2 mt-2 white b-01">ANALISTA DE CONTROL DE PRESUPUESTOS</h5></a> 
+                                <!--Grid column-->
+                                <div class="col-md-9 text-left comenta-d ">
+                                <a href="{{ url('registro') }}" id="renub"><h5 class="mb-2 mt-2 white b-01">ANALISTA DE CONTROL DE PRESUPUESTOS</h5></a> 
                                 <h6 class="mb-2 blue-text mn-t-02 ml-2">APC CORPORACION S.A</h6>
                                 <hr class="mn-t-02 busca-trabajo mr-2">
                                 <p class="mn-t-02 p-2">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam
-                                    rem aperiam, eaque ipsa rem aperiam, eaque ipsa unde omnis iste natus error sit voluptatem[...]</p>
-                                    <i class="fas fa-map-marker-alt mr-2 p-2"></i>San Isidro,Lima,Lima,Perú
-                                    <i class="fas fa-address-book ml-4 mr-2 p-2"></i>Education
-                            </div>
-                            <!--Grid column-->
+                                        rem aperiam, eaque ipsa rem aperiam, eaque ipsa unde omnis iste natus error sit voluptatem[...]</p>
+                                        <i class="fas fa-map-marker-alt mr-2 p-2"></i>San Isidro,Lima,Lima,Perú
+                                        <i class="fas fa-address-book ml-4 mr-2 p-2"></i>Education
+                                </div>
+                                <!--Grid column-->
                         </div>
                         <!--Grid row-->
-                  
+                        
                 </div>
+                
         </div>
     </div>
 </div>

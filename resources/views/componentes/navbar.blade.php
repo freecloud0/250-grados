@@ -13,42 +13,43 @@
     
 </head>
 <body class="body-d-01">
-  <div class="text-right bg-p360-inicio-t">
+  <div class="text-right ">
       <a class="fb-ic">
-          <i class="fab fa-facebook-f mr-4 sise-t-19 indigo-text"></i>
+          <i class="fab fa-facebook-f mr-4 sise-t-19 color-p360-t"></i>
         </a>
 
         <a class="tw-ic">
-          <i class="fab fa-twitter mr-4 sise-t-19 blue-text"></i>
+          <i class="fab fa-twitter mr-4 sise-t-19 color-p360-t"></i>
         </a>
 
-        <a class="gplus-ic">
-          <i class="fab fa-youtube mr-4 sise-t-19 red-text"></i>
+        <a class="gplus-ic"> 
+          <i class="fab fa-youtube mr-4 sise-t-19 color-p360-t"></i>
         </a>
 
         <a class="li-ic">
-          <i class="fab fa-instagram mr-4 sise-t-19 orange-text"></i>
+          <i class="fab fa-instagram mr-4 sise-t-19 color-p360-t"></i>
         </a>
 
-        <a href="" class="btn black btn-rounded  b-01" data-toggle="modal" data-target="#modalRegisterForm" id="btn-top">Iniciar Sesión</a>
-        <a href="{{ url('registro') }}" class="btn black btn-rounded  b-01" id="btn-top">Registrarse</a>
+        <a href="" class="btn bg-p360 btn-rounded  b-01" id="btn-hov" data-toggle="modal" data-target="#modalRegisterForm" >Iniciar Sesión</a>
+   
 </div>
-    <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade " id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                  <div class="modal-header text-center">
+              <div class="modal-content ">
+                  <div class="modal-header text-center bg-p360 white-text ">
                       <h4 class="modal-title w-100 font-weight-bold">Iniciar Sesión</h4>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <button type="button" class="close white-text " data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                       </button>
                   </div>
+                  
                   <div class="modal-body mx-3">
                       <div class="md-form mb-5">
-                          <i class="fa fa-envelope prefix grey-text"></i>
+                            <i class="far fa-envelope prefix grey-text"></i>
                           <input type="email" id="orangeForm-email" class="form-control validate">
                           <label data-error="wrong" data-success="right" for="orangeForm-email">Correo Electrónico</label>
                       </div>
-      
+          
                       <div class="md-form mb-4">
                           <i class="fa fa-lock prefix grey-text"></i>
                           <input type="password" id="orangeForm-pass" class="form-control validate">
@@ -56,30 +57,52 @@
                       </div>
       
                   </div>
-                  <div class=" text-center">
+                  <div class=" text-center mb-4">
                       <button class="btn bg-p360"><i class="fab fa-telegram-plane mr-2"></i>Enviar</button>
                   </div>
-                  <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or Sign in with:</p>
-
-                  <li class=" l-none text-center pl-4 pr-4 mb-2">
-                      <a class="nav-link indigo redondear white-text border" href="#"><i class="fab fa-facebook-f mr-4 sise-t-19 white-text text-left"></i><span class="sise-t-17 m-4 f-360 text-right"> Facebook</span></a>
-                  </li>
-                  <li class=" l-none text-center pl-4 pr-4 mb-2">
-                      <a class="nav-link red redondear white-text border" href="#"><i class="fab fa-google-plus-g mr-4 sise-t-19 white-text text-left"></i><span class="sise-t-17 m-4 f-360 text-right"> Google plus</span></a>
-                  </li>
-                  <div class="modal-footer mx-5 pt-3 mb-1">
-                      <p class="font-small grey-text d-flex justify-content-end">No eres miembro ? <a href="#" class="blue-text ml-1"> Registrarse</a></p>
-                  </div>
+                  
               </div>
           </div>
     </div>
+    <div class="modal fade " id="modalSus" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content ">
+                    <div class="modal-header text-center red white-text ">
+                        <h4 class="modal-title w-100 font-weight-bold">SUSCRIBIRSE</h4>
+                        <button type="button" class="close white-text " data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-5">
+                            <i class="far fa-envelope prefix grey-text"></i>
+                            <input type="email" id="orangeForm-email" class="form-control validate">
+                            <label data-error="Incorrecto" data-success="Correcto" for="orangeForm-email">Correo Electrónico</label>
+                        </div>
+                        <li class=" l-none text-center">
+                                <a class="nav-link red redondear white-text border" href="#"><span class="sise-t-15 m-4 f-360"><i class="fas fa-sign-out-alt"></i> Enviar </span></a>
+                        </li>
+                        <p class=" f-360 sise-t-19  text-center">ó suscribirse con:</p>
+                        <li class=" l-none text-center">
+                                <a class="nav-link blue redondear white-text border" href="#"><span class="sise-t-15 m-4 f-360"><i class="fab fa-facebook mr-2"></i>Facebook</span></a>
+                        </li>
+                        
+        
+                    </div>
+                  
+                </div>
+            </div>
+    </div>
+
+
     <ul class="nav justify-content-center bg-p360-inicio lighten-4 py-1">
         <li class="nav-item">
             <a class="nav-link f-360-l  color-p360-t" id="menu-top" href="{{ url('trabajo') }}"><i class="fas fa-child mr-2"></i>Trabaja con nosotros </a> 
         </li>
         <div class="lineav-01 visiblew"></div>
         <li class="nav-item visiblew">
-            <a class="nav-link f-360-l color-p360-t" id="menu-top" href="{{ url('registro') }}"><i class="fas fa-address-card mr-2"></i>Registrarse</a>
+            <a class="nav-link f-360-l color-p360-t" id="menu-top" data-toggle="modal" data-target="#modalSus"><i class="fas fa-address-card mr-2"></i>Suscríbete</a>
         </li>
 
         <div class="lineav-01 visiblew"></div>
@@ -196,7 +219,7 @@
             </button>
 
             <a href="{{ url('/') }}">
-                <div  style="right:-80px; width: 139px; position: absolute; top: -20px; z-index: 1200;" class="visibler animated fadeInDown txtNew " >
+                <div  style="right:0px; position: absolute; top: -20px; z-index: 1200;" class="visibler animated fadeInDown txtNew " >
                     <img class="d-block ima-logo  white redondear" src="img/pollo-logo.jpg">     
                 </div>
             </a>
@@ -209,7 +232,7 @@
                        <a class="nav-link " href="{{ url('/') }}"><span class="sise-t-17 m-2 f-360-l white-text"><i class="fas fa-home mr-2"></i> INICIO</span>
                         </a>
                     </li>    
-                    <li class="nav-item dropdown bg-p360-nav">
+                    <li class="nav-item dropdown ">
                       <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sise-t-17 m-2 f-360-l white-text"><i class="fas fa-clipboard-list mr-2"></i> CARTA</span></a>
                       <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
                           <a class="dropdown-item" href="{{ url('carta') }}"><span class="sise-t-17 m-2 f-360-l black-text"><i class="fas fa-utensils mr-2"></i> Pollo a la Brasa</span></a>
@@ -217,14 +240,14 @@
                           <a class="dropdown-item" href="{{ url('carta') }}"><span class="sise-t-17 m-2 f-360-l black-text"><i class="fas fa-glass-martini mr-2"></i> Bebidas</span></a>
                       </div>
                   </li>
-                    <li class="nav-item bg-p360-nav ">
+                    <li class="nav-item  ">
                       <a class="nav-link" data-toggle="modal" data-target="#modalReserva"><span class="sise-t-17 m-2 f-360-l white-text"><i class="far fa-edit mr-2"></i> RESERVA</span></a>
                     </li>
-                    <li class="nav-item bg-p360-nav ">
+                    <li class="nav-item  ">
                       <a class="nav-link" href="{{ url('nosotros') }}"><span class="sise-t-17 m-2 f-360-l white-text"><i class="fas fa-users mr-2"></i> NOSOTROS</span></a>
                     </li>
-                    <li class="nav-item bg-p360-nav ">
-                      <a class="nav-link  " href="{{ url('contactanos') }}"><span class="sise-t-17 m-2 f-360-l white-text"><i class="fas fa-user-tie mr-2"></i> CONTACTANOS</span></a>
+                    <li class="nav-item ">
+                      <a class="nav-link  " href="{{ url('contactanos') }}"><span class="sise-t-17 m-2 f-360-l white-text"><i class="fas fa-user-tie mr-2"></i> CONTÁCTANOS</span></a>
                     </li>
                     
                 </ul>
@@ -252,7 +275,7 @@
       
               <!-- Grid column -->
               <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                <h6 class="mb-0">Get connected with us on social networks!</h6>
+                <h6 class="mb-0">¡Conéctese con nosotros en las redes sociales!</h6>
               </div>
               <!-- Grid column -->
       
@@ -295,9 +318,9 @@
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
       
               <!-- Content -->
-              <h6 class="text-uppercase font-weight-bold">Company name</h6>
+              <h6 class="text-uppercase font-weight-bold">250 GRADOS</h6>
               <hr class="red accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-              <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p> Tengamos cuidado con las cantidades de pollo que se consumen, pues, el pollo que se debe servir siempre tiene que ser del día, no de ayer no de antes de ayer.</p>
       
             </div>
             <!-- Grid column -->
@@ -306,19 +329,19 @@
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
       
               <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">Products</h6>
+              <h6 class="text-uppercase font-weight-bold">Productoss</h6>
               <hr class="red accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
               <p>
-                <a href="#!">MDBootstrap</a>
+                <a href="#!">POLLOS A LA BRASA</a>
               </p>
               <p>
-                <a href="#!">MDWordPress</a>
+                <a href="#!">POLLOS A LA PARRILLA</a>
               </p>
               <p>
-                <a href="#!">BrandFlow</a>
+                <a href="#!">ASADOS</a>
               </p>
               <p>
-                <a href="#!">Bootstrap Angular</a>
+                <a href="#!">BEBIDAS</a>
               </p>
       
             </div>
@@ -328,19 +351,19 @@
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
       
               <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+              <h6 class="text-uppercase font-weight-bold">Enlaces Útiles</h6>
               <hr class="red accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
               <p>
-                <a href="#!">Your Account</a>
+                <a href="#!">Su cuenta</a>
               </p>
               <p>
-                <a href="#!">Become an Affiliate</a>
+                <a href="#!">Conviértase en un Afiliado</a>
               </p>
               <p>
-                <a href="#!">Shipping Rates</a>
+                <a href="#!">Trabaje con nosotros</a>
               </p>
               <p>
-                <a href="#!">Help</a>
+                <a href="#!">Ayuda</a>
               </p>
       
             </div>
@@ -350,16 +373,16 @@
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
       
               <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold">Contact</h6>
+              <h6 class="text-uppercase font-weight-bold">Contácteno</h6>
               <hr class="red accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
               <p>
-                <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+                <i class="fa fa-home mr-3"></i> Lima, N° 1122, Metropolitano</p>
               <p>
-                <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                <i class="fa fa-envelope mr-3"></i> docientos_50_grados@gmail.com</p>
               <p>
-                <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                <i class="fa fa-phone mr-3"></i>  934 567 88</p>
               <p>
-                <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+                <i class="fa fa-print mr-3"></i>  934 550 11</p>
       
             </div>
             <!-- Grid column -->
@@ -372,7 +395,7 @@
       
         <!-- Copyright -->
         <div class="footer-copyright text-center py-3 ">© 2018 Copyright:
-          <a href="https://mdbootstrap.com/bootstrap-tutorial/" class="blue-text"><i class="fas fa-cloud ml-4 mr-2 "></i> FreeCloud.com</a>
+          <a href="https://www.facebook.com/freecloud.pe/" class="blue-text"><i class="fas fa-cloud ml-4 mr-2 "></i> FreeCloud.com</a>
         </div>
         <!-- Copyright -->
       
@@ -409,26 +432,7 @@
         $('#yourElement').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend');
         
  </script>
-<script>
-       //doughnut
-var ctxD = document.getElementById("doughnutChart").getContext('2d');
-var myLineChart = new Chart(ctxD, {
-    type: 'doughnut',
-    data: {
-        labels: ["Red", "Green", "Yellow", "Grey", "Dark Grey"],
-        datasets: [
-            {
-                data: [300, 50, 100, 40, 120],
-                backgroundColor: ["#F7464A", "#46BFBD", "#FDB45C", "#949FB1", "#4D5360"],
-                hoverBackgroundColor: ["#FF5A5E", "#5AD3D1", "#FFC870", "#A8B3C5", "#616774"]
-            }
-        ]
-    },
-    options: {
-        responsive: true
-    }
-});
-        </script>
+
  
 
 <!-- -Carosuel fullpantalla- -->

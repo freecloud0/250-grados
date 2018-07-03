@@ -5,22 +5,16 @@
 
 <!--Carousel Wrapper-->
 <div class="visiblew"><br></div>
-<div id="carousel-example-2" class="container08-p carousel slide carousel-fade" data-ride="carousel">
+<div id="carousel-example-2" class="container09-p carousel slide carousel-fade" data-ride="carousel">
     <!--Indicators--> 
-    <div class="po-ca-01 visiblew">
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-2 " data-slide-to="0" class="active orange"></li>
-            <li data-target="#carousel-example-2" data-slide-to="1" class=" orange"></li>
-            <li data-target="#carousel-example-2" data-slide-to="2" class=" orange"></li>
-        </ol>
-    </div>
-    
+
     <!--/.Indicators-->
+    <div class="mt-2 visibler"></div>
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active ">
-            <div class="view ">
-                <img class="d-block w-100-p" src="img/poll-01.jpeg" alt="First slide">
+            <div class="view redondear">
+                <img class="d-block w-100-p " src="img/poll-01.jpeg" alt="First slide">
                 <div class="mask rgba-black-slight"></div>
             </div>
             <div class="carousel-caption">
@@ -29,7 +23,7 @@
         </div>
         <div class="carousel-item ">
             <!--Mask color-->
-            <div class="view ">
+            <div class="view redondear">
                 <img class="d-block w-100-p" src="img/poll-02.jpeg" alt="Second slide">
                 <div class="mask rgba-black-slight"></div>
             </div>
@@ -39,7 +33,7 @@
         </div>
         <div class="carousel-item ">
             <!--Mask color-->
-            <div class="view ">
+            <div class="view redondear">
                 <img class="d-block w-100-p" src="img/poll-03.jpeg" alt="Third slide">
                 <div class="mask rgba-black-slight"></div>
             </div>
@@ -50,7 +44,19 @@
     </div>
     <!--/.Slides-->
     <!--Controls-->
-
+    <div class="po-ca-01 visiblew">
+        <ol class="carousel-indicators bg-otros redondear m-4">
+            <li data-target="#carousel-example-2 " data-slide-to="0" class="active "></li>
+            <li data-target="#carousel-example-2" data-slide-to="1" class=" "></li>
+            <li data-target="#carousel-example-2" data-slide-to="2" class=" "></li>
+        </ol>
+    </div>
+    <a class="carousel-control-prev " href="#carousel-example-2" role="button" data-slide="prev">
+        <i class="fas fa-angle-left sise-t-50 mt-4"></i>
+      </a>
+      <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <i class="fas fa-angle-right sise-t-50 mt-4"></i>
+      </a>
     
     <!--/.Controls-->
 </div>
